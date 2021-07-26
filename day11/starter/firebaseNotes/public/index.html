@@ -41,7 +41,24 @@
                         </h2>
                         <br>
                         <p class="has-text-centered">
-                            <a class="button is-medium is-info is-outlined">
+                            <a class="button is-medium is-info is-outlined"
+                                onclick="googleSignIn()">
+                                Google Account Sign In
+                            </a>
+                        </p>
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-medium" type="text" id="email" placeholder="email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-medium" type="text" id="password" placeholder="password">
+                            </div>
+                        </div>
+                        <p class="has-text-centered">
+                            <a class="button is-medium is-info is-outlined"
+                                onclick="signIn()">
                                 Sign In
                             </a>
                         </p>
@@ -50,6 +67,6 @@
             </div>
         </div>
     </section>
-    
+    <script  src="js/signIn.js"></script>
   </body>
 </html>
